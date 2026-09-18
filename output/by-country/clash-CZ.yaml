@@ -5,19 +5,20 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇨🇿 捷克 (Czech) 01 - xiaohe
-  server: 129.151.64.169
-  port: 31867
+  server: 188.114.97.8
+  port: 443
   udp: true
   type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  uuid: 513beae3-56e7-4954-a17e-930e06237b27
   tls: true
-  servername: cdn8848.776676.xyz
-  skip-cert-verify: true
+  servername: cFOi-2fX16G3-8ry2KDxMcJ.wjESV2IlA3rXBuhpC2NsUgrAChGAWk.wOrKerS.DEv
+  skip-cert-verify: false
+  client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /files
+    path: /vl/FuJlzLUhMmosE6ySAHYtJDUq6XlF?ed=2560
     headers:
-      Host: cdn8848.776676.xyz
+      Host: cfoi-2fx16g3-8ry2kdxmcj.wjesv2ila3rxbuhpc2nsugrachgawk.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
