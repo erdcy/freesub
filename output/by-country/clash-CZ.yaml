@@ -5,16 +5,18 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇨🇿 捷克 (Czech) 01 - xiaohe
-  server: 208.103.161.249
-  port: 80
+  server: cepchik.nxxzxaw.beer
+  port: 443
   udp: true
   type: vless
-  uuid: a3c51f71-ffb5-4c80-a136-cee4b36d6e85
-  network: ws
-  ws-opts:
-    path: /security=tls
-    headers:
-      Host: kamran01-afgmdq-1.kamran-01.workers.dev
+  uuid: 4bdeee92-97e8-414d-bef6-ec1d5e2ab73b
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: WU5baXUzRH9BceiYI8MPBmDMEloTFImx2vvE5uh1yjM
+    short-id: f19e02a2fb573c18
+  servername: cepchik.nxxzxaw.beer
+  client-fingerprint: firefox
 proxy-groups:
 - name: PROXIES
   type: select
