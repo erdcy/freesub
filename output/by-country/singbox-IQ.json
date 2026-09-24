@@ -6,16 +6,13 @@
     {
       "type": "vless",
       "tag": "🇮🇶 IQ 01 - xiaohe",
-      "server": "172.67.219.176",
-      "server_port": 2087,
-      "uuid": "f2f4e2dc-3e7b-402f-a461-b48acc6aa310",
+      "server": "104.21.61.42",
+      "server_port": 443,
+      "uuid": "5b14b2cf-57e3-4f96-92f2-9695078f06d8",
       "tls": {
         "enabled": true,
-        "server_name": "steep-bonus-8e6a.amirhon1376.workers.dev",
+        "server_name": "001.inc-electrocell-001-001.workers.dev",
         "insecure": false,
-        "alpn": [
-          "http/1.1"
-        ],
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -23,44 +20,9 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/eyJqdW5rIjoid2JBOTRVclNMOVdBSVQiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119",
+        "path": "/eyJqdW5rIjoiSGdhak9tRkZLeDdwcCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=",
         "headers": {
-          "Host": "steep-bonus-8e6a.amirhon1376.workers.dev"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇮🇶 IQ 02 - xiaohe",
-      "server": "188.114.97.6",
-      "server_port": 8080,
-      "uuid": "0991a0c4-0ee5-4213-af89-7ad589f853f3",
-      "transport": {
-        "type": "ws",
-        "headers": {
-          "Host": "elenaaaaaaaaaa.cloudns.pro"
-        }
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🇮🇶 IQ 03 - xiaohe",
-      "server": "172.67.191.121",
-      "server_port": 443,
-      "password": "Telegram_healer_config",
-      "tls": {
-        "enabled": true,
-        "server_name": "47hr9isj-655383snd63hjap38q6t.k-f3vpqaltfsxbtaxe.workers.dev",
-        "insecure": false,
-        "alpn": [
-          "http/1.1"
-        ]
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/tr/V2VWNDZAAEIdXVjOCkLfJnefnR5Pum?ed=2560",
-        "headers": {
-          "Host": "47hr9isj-655383snd63hjap38q6t.k-f3vpqaltfsxbtaxe.workers.dev"
+          "Host": "001.inc-electrocell-001-001.workers.dev"
         }
       }
     },
@@ -69,18 +31,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇮🇶 IQ 01 - xiaohe",
-        "🇮🇶 IQ 02 - xiaohe",
-        "🇮🇶 IQ 03 - xiaohe"
+        "🇮🇶 IQ 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇮🇶 IQ 01 - xiaohe",
-        "🇮🇶 IQ 02 - xiaohe",
-        "🇮🇶 IQ 03 - xiaohe"
+        "🇮🇶 IQ 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
